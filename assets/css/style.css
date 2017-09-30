@@ -1,0 +1,478 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background-image: url("../images/steps.png");
+}
+
+.content {
+	min-height: 100%;
+}
+
+.content-inside {
+	padding:20px;
+	padding-bottom: 50px;
+}
+
+.footer {
+	height: 50px;
+	margin-top: -50px;
+	text-align: center;
+	color: white;
+	background-color: darkgrey;
+	font-family: "Arial";
+	font-size: 15px;
+	line-height: 3;
+}
+
+header {
+	background-color: #ffffff;
+	height: 53px;
+	border-bottom: 2px solid #cccccc;
+}
+
+.box1 p {
+	font-family:"Arial",Helvetica, sans-serif;
+	font-size: 16px;
+	color:#777777;
+}
+
+.box1 {
+	width: 960px;
+	margin: auto;
+}
+
+.about {
+	width: 570px;
+	background-color:white;
+	padding: 20px 40px 40px 40px;
+	margin-top: 50px;
+	height: 100%;
+	border: 1px solid #ccc;
+}
+
+#profilepic {
+	width: 200px;
+	margin-right: 20px;
+}
+
+#box1header {
+	text-align: left;
+	color: #4aaaa5;
+	font-size: 30px;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	font-weight: bold;
+	border-bottom: 2px solid lightgray;
+	padding-bottom: 20px;
+}
+
+.sidebar img {
+	padding-left: 8px;
+}
+
+.sidebar {
+	width: 190px;
+	height: 272px;
+	float: right;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-top: 50px;
+	background-color: white;
+	border: 1px solid #ccc;
+}
+
+#name {
+  width: 200px;
+  background-color: #4aaaa5;
+  font-family: "Georgia", Times, Times New Roman, serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 100px;
+}
+
+#jameslee {
+	color: white;
+	margin: 10px;
+}
+
+.header-right {
+	height: 55px;
+	width: 300px;
+	margin-right: 100px;
+}
+
+#r-header1 {
+	border-right: 1px solid gray;
+	padding-right: 6px;
+}
+
+#r-header2 {
+	border-right: 1px solid gray;
+	padding-right: 6px;
+}
+
+#links {
+	text-align: center;
+	height: 53px;
+	line-height: 3;
+	background-color: white;
+	margin: auto;
+	font-family: "Arial", Helvetica, sans-serif;
+	font-size: 17px;
+}
+
+#contactme {
+	border-bottom: 1px solid lightgray;
+	font-size: 21px;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	font-weight: bold;
+	color:#4aaaa5;
+	line-height: 2;
+}
+
+.container {
+  min-height: 100%;
+  top-margin: 50px;
+  left-margin: 100px;
+  right-margin: 100px;
+}
+
+a:link {
+	color: gray;
+	text-decoration: none;
+}
+
+a:visited {
+	color: gray;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+}
+
+/*CONTACT FORM CSS*/
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 20px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: #4aaaa5;
+	font-family: "Arial", sans-serif;
+	font-size: 20px;
+	color: white;
+	line-height: 2;
+	padding-right: 30px;
+	padding-left: 30px;
+
+}
+
+input[type=submit]:hover {
+	background-color: white;
+}
+
+input[type=submit]:active {
+	background-color: darkgrey
+}
+
+label {
+	font-family:"Arial",Helvetica, sans-serif;
+	font-size: 20px;
+	color:#777777;
+}
+
+/*END CONTACT FORM CSS*/
+
+p.portfoliotext {
+	width: 260px;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	font-size: 20px;
+	color:white;
+	background-color: #4aaaa5;
+	text-align: center;
+	line-height: 2;
+	position: relative;
+	bottom: 90px;
+}
+
+.cat {
+	width: 260px;
+}
+
+	#cat1 {
+		height: 210px;
+		margin-bottom: 10px;
+		float: left;
+	}
+	
+
+	#cat2 {
+		height: 210px;
+		margin-bottom: 10px;
+		float: right;
+	}
+
+	#cat3 {
+		float: left;
+		height: 210px;
+		margin-bottom: 10px;
+	}
+
+	#cat4 {
+		height: 210px;
+		margin-bottom: 10px;
+		float: right;
+	}
+
+	#cat5 {
+		height: 210px;
+		float: right;
+	}
+
+	#cat6 {
+		height: 210px;
+		float: left;
+	}
+
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 980px) {
+
+	.about {
+		width: 350px;
+		margin-left: 80px;
+	}
+
+	.sidebar {
+		float: left;
+		width: 200px;
+		height: 170px;
+		margin-left: 40px;
+	}
+
+	#profilepic {
+		width: 350px;
+		margin-bottom: 20px;
+
+	}
+
+	.cat {
+		width: 300px;
+		margin-left: 25px;
+	}
+
+	p.portfoliotext {
+		margin-left: 25px;
+		width: 300px;
+	}
+
+	#cat1 {
+		margin-bottom: 20px;
+	}
+
+	#cat2 {
+		float: left;
+		margin-bottom: 20px;
+	}
+
+	#cat3 {
+		float:left;
+		clear:both;
+		margin-bottom: 20px;
+	}
+
+	#cat4 {
+		float:left;
+		clear:both;
+		margin-bottom: 20px;
+	}
+
+	#cat5 {
+		float:left;
+		clear:both;
+		margin-bottom: 20px;
+	}
+
+	#cat6 {
+		float:left;
+		clear:both;
+		margin-bottom: 20px;
+	}
+
+}
+
+
+/*768 PX MEDIA SCREEN*/
+@media screen and (max-width: 768px) {
+
+	.box1 {
+		width: 768px;
+	}
+
+	#name{
+		clear:both;
+		text-align: center;
+		width: 250px;
+		margin-left: 20px;
+	}		
+
+	.header-right {
+		margin: 0px;
+	}
+
+	.about {
+		margin: 10px 0px 0px 0px;
+		width: 610px;
+	}
+
+
+	.sidebar {
+		float: left;
+		width: 610px;
+		margin-left: 0px;
+		margin-top: 30px;
+	}
+
+	.cat {
+		margin-left: 0px;
+		margin-bottom: 40px;
+		width: 280px;
+	}
+
+	p.portfoliotext {
+		width: 280px;
+		margin-left: 0px;
+		position: relative;
+		bottom: 130px;
+	}
+
+	#cat1 {
+		float: left;
+	}
+
+	#cat2 {
+		float: right;
+	}
+
+	#cat3 {
+	}
+
+/*why wont this cat float right like the others..*/
+	#cat4 {
+		float: right;
+	}
+
+	#cat5 {
+		float:right;
+	}
+
+	#cat6 {
+		float:left;
+	}
+
+
+}
+
+/*640 PX MEDIA SCREEN*/
+@media screen and (max-width: 640px) {
+	
+	.box1 {
+		width: 640px;
+	}
+
+	#name{
+		clear:both;
+		text-align: center;
+		width: 100%;
+		margin: 0px;
+	}		
+
+	.header-right {
+		clear:both;
+		text-align: center;
+		width: 100%;
+		margin: 0px;
+	}
+	
+	#r-header1 {
+		padding-right: 50px;
+	}
+
+	#r-header2 {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	#r-header3 {
+		padding-left: 50px;
+	}
+
+	.about {
+		margin: 20px 0px 0px 0px;
+		width: 490px;
+	}
+
+	#profilepic {
+		width: 100%;
+	}
+
+	.sidebar {
+		float: left;
+		width: 490px;
+		margin-left: 0px;
+		margin-top: 30px;
+	}
+
+	.cat {
+		margin-left: 0px;
+		margin-bottom: 40px;
+		width: 490px;
+	}
+
+	p.portfoliotext {
+		width: 490px;
+		margin-left: 0px;
+		position: relative;
+		bottom: 150px;
+		line-height: 3;
+	}
+
+	#cat1 {
+		height: 350px;
+	}
+
+	#cat2 {
+		float: left;
+		height: 350px;
+	}
+
+	#cat3 {
+		float:left;
+		height: 350px;
+	}
+
+	#cat4 {
+		float:left;
+		height: 350px;
+	}
+
+	#cat5 {
+		float:left;
+		height: 350px;
+	}
+
+	#cat6 {
+		float:left;
+		height: 350px;
+	}
+
+}
